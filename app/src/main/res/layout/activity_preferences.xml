@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.uclk.shani.youseelk.Activities.PreferencesActivity">
+
+    <include layout="@layout/app_bar" android:id="@+id/app_bar"/>
+
+    <TextView
+        android:id="@+id/tvPreferences"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:ems="10"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="@string/tvPreferences"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginStart="42dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <CheckBox
+        android:id="@+id/cb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cb1"
+        android:textSize="18sp"
+        android:layout_marginTop="36dp"
+        android:layout_below="@+id/tvPreferences"
+        android:layout_alignLeft="@+id/tvPreferences"
+        android:layout_alignStart="@+id/tvPreferences" />
+
+    <CheckBox
+        android:id="@+id/cb2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cb2"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/cb1"
+        android:layout_alignLeft="@+id/cb1"
+        android:layout_alignStart="@+id/cb1" />
+
+    <CheckBox
+        android:id="@+id/cb3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:text="@string/cb3"
+        android:textSize="18sp"
+        android:layout_below="@+id/cb2"
+        android:layout_alignLeft="@+id/cb2"
+        android:layout_alignStart="@+id/cb2" />
+
+    <CheckBox
+        android:id="@+id/cb4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/cb4"
+        android:textSize="18sp"
+        android:layout_below="@+id/cb3"
+        android:layout_alignLeft="@+id/cb3"
+        android:layout_alignStart="@+id/cb3" />
+
+    <CheckBox
+        android:id="@+id/cb5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cb5"
+        android:textSize="18sp"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/cb4"
+        android:layout_alignLeft="@+id/cb4"
+        android:layout_alignStart="@+id/cb4" />
+
+    <CheckBox
+        android:id="@+id/cb6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cb6"
+        android:textSize="18sp"
+        android:layout_above="@+id/cb2"
+        android:layout_alignRight="@+id/tvPreferences"
+        android:layout_alignEnd="@+id/tvPreferences" />
+
+    <CheckBox
+        android:id="@+id/cb7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cb7"
+        android:textSize="18sp"
+        android:layout_alignBaseline="@+id/cb2"
+        android:layout_alignBottom="@+id/cb2"
+        android:layout_alignLeft="@+id/cb6"
+        android:layout_alignStart="@+id/cb6" />
+
+    <CheckBox
+        android:id="@+id/cb8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cb8"
+        android:textSize="18sp"
+        android:layout_alignTop="@+id/cb3"
+        android:layout_alignLeft="@+id/cb7"
+        android:layout_alignStart="@+id/cb7" />
+
+    <CheckBox
+        android:id="@+id/cb9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cb9"
+        android:textSize="18sp"
+        android:layout_above="@+id/cb5"
+        android:layout_alignLeft="@+id/cb8"
+        android:layout_alignStart="@+id/cb8" />
+
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:text="@string/btnSavePreferences"
+        android:textSize="18sp"
+        android:layout_marginBottom="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            tools:context="com.uclk.shani.youseelk.Activities.SignUpActivity"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <include layout="@layout/app_bar" android:id="@+id/app_bar"/>
+
+                    <TextView
+                        android:id="@+id/tvSUEmail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="27dp"
+                        android:text="@string/tvSUEmail"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="16sp"
+                        android:layout_below="@+id/app_bar"
+                        android:layout_alignLeft="@+id/btnNextPref"
+                        android:layout_alignStart="@+id/btnNextPref" />
+
+                    <EditText
+                        android:id="@+id/etSUEmail"
+                        android:layout_width="275dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/tvSUEmail"
+                        android:layout_alignStart="@+id/tvSUEmail"
+                        android:layout_below="@+id/tvSUEmail"
+                        android:ems="10"
+                        android:hint="@string/etSUEmail"
+                        android:inputType="textEmailAddress"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/tvSUPassword"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:text="@string/tvSUPassword"
+                        android:layout_below="@+id/etSUEmail"
+                        android:layout_alignLeft="@+id/etSUEmail"
+                        android:layout_alignStart="@+id/etSUEmail"
+                        android:layout_marginTop="17dp" />
+
+                    <EditText
+                        android:id="@+id/etSUPassword"
+                        android:layout_width="275dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/tvSUPassword"
+                        android:layout_alignStart="@+id/tvSUPassword"
+                        android:layout_below="@+id/tvSUPassword"
+                        android:ems="10"
+                        android:hint="@string/etSUPassword"
+                        android:inputType="textPassword"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/tvSUConfirmPassword"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/etSUPassword"
+                        android:layout_alignStart="@+id/etSUPassword"
+                        android:layout_below="@+id/etSUPassword"
+                        android:layout_marginTop="20dp"
+                        android:text="@string/tvSUConfirmPassword"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="16sp" />
+
+                    <EditText
+                        android:id="@+id/etSUConfirmPassword"
+                        android:layout_width="275dp"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:textSize="16sp"
+                        android:hint="@string/etSUConfirmPassword"
+                        android:inputType="textPassword"
+                        android:layout_below="@+id/tvSUConfirmPassword"
+                        android:layout_alignLeft="@+id/tvSUConfirmPassword"
+                        android:layout_alignStart="@+id/tvSUConfirmPassword" />
+
+
+
+                    <Button
+                        android:id="@+id/btnNextPref"
+                        style="@style/Widget.AppCompat.Button.Colored"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/btnNextPref"
+                        android:textColor="#FFFFFF"
+                        android:paddingRight="16dp"
+                        android:paddingLeft="16dp"
+                        android:textSize="16sp"
+                        android:layout_marginTop="31dp"
+                        android:layout_below="@+id/etSUConfirmPassword"
+                        android:layout_centerHorizontal="true" />
+
+                <Button
+                    android:id="@+id/btnSignUpWithoutPref"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btnSignUpWithoutPref"
+                    android:textColor="#FFFFFF"
+                    android:paddingRight="16dp"
+                    android:paddingLeft="16dp"
+                    android:textSize="16sp"
+                    android:layout_marginTop="14dp"
+                    android:layout_below="@+id/btnNextPref"
+                    android:layout_alignLeft="@+id/btnNextPref"
+                    android:layout_alignStart="@+id/btnNextPref" />
+
+            <Button
+                android:id="@+id/btnHasAccount"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="45dp"
+                android:text="@string/btnHasAccount"
+                android:textAllCaps="false"/>
+
+        </RelativeLayout>
+
+

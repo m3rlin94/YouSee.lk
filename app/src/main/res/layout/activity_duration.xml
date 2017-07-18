@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutDuration"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.uclk.shani.youseelk.activities.DurationActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/contentFrameDuration">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:context="com.uclk.shani.youseelk.activities.DurationActivity">
+
+            <include layout="@layout/app_bar" android:id="@+id/app_bar"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@+id/app_bar"
+                android:layout_above="@+id/bottomButtons"
+                android:layout_margin="10dp">
+                <TextView
+                    android:id="@+id/tvAddDuration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tvAddDuration"
+                    android:textSize="18sp"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/colorPrimaryDark" />
+
+                <ListView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/addedPlaces"
+                    android:layout_margin="10dp">
+                </ListView>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right|bottom"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:id="@+id/bottomButtons"
+                android:layout_margin="10dp"
+                android:layout_alignParentBottom="true">
+
+
+
+                <Button
+                    android:id="@+id/btnPlan"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/btnPlan"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </FrameLayout>
+
+    <android.support.design.widget.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:id="@+id/navView"
+        app:itemIconTint="@color/colorAccent"
+        app:headerLayout="@layout/nav_header_nav_drawer"
+        app:menu="@menu/activity_nav_drawer_drawer"/>
+
+</android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">YouSee.lk</string>
+    <string name="btnlogin">Log In</string>
+    <string name="btnsignup">Not registered? SIGN UP here!</string>
+    <string name="btnHome1">View the attractions</string>
+    <string name="btnHome2">Open trip planner</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="tvEmail">Email</string>
+    <string name="tvPassword">Password</string>
+    <string name="emailHint">Email</string>
+    <string name="passwordHint">Password</string>
+    <string name="btnSignIn2">Log In</string>
+    <string name="btnNotRegistered">Not registered? SIGN UP here!</string>
+
+    <string name="tvSUEmail">Email*</string>
+    <string name="tvSUPassword">Password*</string>
+    <string name="tvSUConfirmPassword">Confirm Password*</string>
+    <string name="etSUEmail">yourname@example.com</string>
+    <string name="etSUPassword">Minimum of 8 characters required</string>
+    <string name="etSUConfirmPassword">Retype the password</string>
+    <string name="tvPreferences">Preferences</string>
+    <string name="btnNextPref">Add travel preferences, too</string>
+    <string name="cb1">Chilly</string>
+    <string name="cb2">Rocky</string>
+    <string name="cb3">Coastal</string>
+    <string name="cb4">Hills</string>
+    <string name="cb5">Warm</string>
+    <string name="cb6">Safari</string>
+    <string name="btnSavePreferences">Save</string>
+    <string name="cb7">Hiking</string>
+    <string name="cb8">Forest</string>
+    <string name="cb9">Adventure</string>
+    <string name="btnHasAccount">Already has account? SIGN IN here!</string>
+
+    <string name="tvTitleSelectLoc">Select the other locations of the tour:</string>
+    <string name="btnNext1">Next</string>
+    <string name="btnNextSignUp">Next</string>
+    <string name="tvStartLoc">Starting location:</string>
+    <string name="tvEndLoc">Ending location:</string>
+    <string name="cbReturn">Return</string>
+    <string name="tvDuration">Duration:</string>
+    <string name="tvFrom">From</string>
+    <string name="tvTo">To</string>
+    <string name="tvStartTime">Starting Time (Approx.):</string>
+    <string name="btnNext2">Next</string>
+    <string name="btnPrev1">Previous</string>
+    <string name="tvAddDuration">Add duration at each location (Approx.)</string>
+    <string name="btnPlan">Plan my trip</string>
+    <string name="btnPrev2">Previous</string>
+    <string name="title_activity_nav_drawer">NavDrawer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="itemHome">Home</string>
+    <string name="itemMyPlans">My Plans</string>
+    <string name="itemUpload">Upload</string>
+    <string name="dividerTitle">YouSee.lk</string>
+    <string name="itemAbout">About</string>
+    <string name="itemSettings">Settings</string>
+    <string name="itemLogout">Log out</string>
+    <string name="navTitle">YouSee.lk</string>
+
+
+    <string name="tvGoSee1">\"Don\'t listen to what they say.</string>
+    <string name="tvGoSee2">Go See.\"</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="btn360">View in 360°</string>
+    <string name="btnVr">View in VR</string>
+    <string name="btnGoToPlan">Go to Trip Planner</string>
+    <string name="btnWeather">Check Weather</string>
+    <string name="btnShowMap">Show Map</string>
+    <string name="btnEdit">Edit Plan</string>
+    <string name="btnSave">Save Plan</string>
+    <string name="tvDestination">Destination</string>
+    <string name="tvDistance">Cumu. Dist.</string>
+    <string name="tvTime">Cumu. Time</string>
+    <string name="btnHome">Home</string>
+    <string name="btnAtTime">At</string>
+    <string name="btnSignUpWithoutPref">Create Account</string>
+
+
+</resources>

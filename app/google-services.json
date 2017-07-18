@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "75083001786",
+    "firebase_url": "https://youseelk-eaa97.firebaseio.com",
+    "project_id": "youseelk-eaa97",
+    "storage_bucket": "youseelk-eaa97.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:75083001786:android:651be82fbf522afa",
+        "android_client_info": {
+          "package_name": "com.uclk.shani.youseelk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "75083001786-s2255relt7fvjdfvj25v2trc69588pgd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.uclk.shani.youseelk",
+            "certificate_hash": "6012990be1346687a3fe7a57cc6c251af0799e76"
+          }
+        },
+        {
+          "client_id": "75083001786-57ctmk59skmstrnlf9dk3pra53o8vhak.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.uclk.shani.youseelk",
+            "certificate_hash": "83de3afc3be2157cddd37623585d57e5d1038f8b"
+          }
+        },
+        {
+          "client_id": "75083001786-d6lha8kpl9j9flnbf9t44s2toifpgiu8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBLhsXK2TiuyZspwvay-1DmTida7OSQt8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "75083001786-d6lha8kpl9j9flnbf9t44s2toifpgiu8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
